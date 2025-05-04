@@ -37,3 +37,6 @@ We also visualize the confusion matrix using a heatmap (via seaborn) to better i
 
 Hyperparameter Tuning
 To improve generalization and avoid overfitting, we fine-tune hyperparameters such as max_depth. Limiting the tree depth often simplifies the model without sacrificing much accuracy. After tuning, we retrain the model and compare the performance and tree complexity to the untuned version
+
+OUTPUT: 
+<!-- Uploading "TO1.png"... -->
