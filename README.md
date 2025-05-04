@@ -35,6 +35,8 @@ We evaluate the model’s performance on the test set by calculating:
 Accuracy score, Confusion matrix, Classification report (precision, recall, F1-score)
 We also visualize the confusion matrix using a heatmap (via seaborn) to better interpret the performance across different classes.
 
+OUTPUT:
+https://github.com/sakshi779702/DECISION-TREE-IMPLEMENTATION/issues/1#issue-3038119022
 Hyperparameter Tuning
 To improve generalization and avoid overfitting, we fine-tune hyperparameters such as max_depth. Limiting the tree depth often simplifies the model without sacrificing much accuracy. After tuning, we retrain the model and compare the performance and tree complexity to the untuned version
 
